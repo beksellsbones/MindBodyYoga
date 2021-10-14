@@ -1,12 +1,20 @@
 # MindBodyYoga
 small business website also for Ad 3
+
+
 <img width="497" alt="LogoSheet" src="https://user-images.githubusercontent.com/89484770/137375738-3d7b1890-801e-465c-95ff-d943bb29cd6d.png">
+
+
 <img width="374" alt="David" src="https://user-images.githubusercontent.com/89484770/137375800-8fdc1491-c4f6-4fc2-a50b-15bcba6c75b8.png">
 <img width="352" alt="Elle" src="https://user-images.githubusercontent.com/89484770/137375818-1415d439-37ad-4e5c-9ff5-6c39364337f1.png">
 <img width="360" alt="Ginger" src="https://user-images.githubusercontent.com/89484770/137375827-c492cfc3-9d59-4257-bd91-a76dfb5cccc1.png">
 <img width="383" alt="Titus" src="https://user-images.githubusercontent.com/89484770/137375835-4ea716f3-d092-44d0-b2d8-d15e961babb5.png">
 <img width="364" alt="Maria" src="https://user-images.githubusercontent.com/89484770/137375845-0c47181c-b508-4b29-a0e3-b01d1bf41384.png">
+
+
 ![220SiteMapHughes](https://user-images.githubusercontent.com/89484770/137375605-47617d55-f93f-46e3-b201-15bf68947607.jpeg)
+
+
 ![220MobileHomePage](https://user-images.githubusercontent.com/89484770/137375625-233d168a-d8bd-4443-ab9e-010c1401456f.jpg)
 ![220TabletHomePage](https://user-images.githubusercontent.com/89484770/137375632-68b0d630-b492-4b86-b204-b6c5616cf078.jpg)
 ![220DesktopHomePage](https://user-images.githubusercontent.com/89484770/137375640-8d56e40d-2a2b-4231-a779-5df877e5ca6f.jpg)
