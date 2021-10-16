@@ -28,3 +28,10 @@ small business website also for Ad 3
 ![220TabletShopPage](https://user-images.githubusercontent.com/89484770/137375696-0c9d56d7-10c4-470f-b049-a2d2aa7b9fd1.jpg)
 ![220DesktopShopPage](https://user-images.githubusercontent.com/89484770/137375702-e3d22842-92ed-459d-be5a-b7993a999d18.jpg)
 
+
+Mobile Home Page Mockup
+<img width="425" alt="MobileHomePageMockup" src="https://user-images.githubusercontent.com/89484770/137603171-49c7000c-bb36-4d74-bc11-645043ddef77.png">
+Tablet Home Page Mockup
+<img width="367" alt="TabletHomePageMockup" src="https://user-images.githubusercontent.com/89484770/137603174-c3dd6355-4950-4b86-9c32-ef16d0f8ee19.png">
+Desktop Home Page Mockup
+<img width="835" alt="DesktopHomePageMockup" src="https://user-images.githubusercontent.com/89484770/137603175-94c7b985-c0f0-4536-a790-7ba50b896735.png">
