@@ -13,6 +13,7 @@ small business website also for Ad 3
 
 
 ![220SiteMapHughes](https://user-images.githubusercontent.com/89484770/137375605-47617d55-f93f-46e3-b201-15bf68947607.jpeg)
+<img width="418" alt="DigitalSiteMap" src="https://user-images.githubusercontent.com/89484770/137781481-c8469603-f2c7-4377-b07c-d30882b51a4f.png">
 
 
 ![220MobileHomePage](https://user-images.githubusercontent.com/89484770/137375625-233d168a-d8bd-4443-ab9e-010c1401456f.jpg)
@@ -40,3 +41,4 @@ Tablet Home Page Mockup
 
 Desktop Home Page Mockup
 <img width="835" alt="DesktopHomePageMockup" src="https://user-images.githubusercontent.com/89484770/137603175-94c7b985-c0f0-4536-a790-7ba50b896735.png">
+
