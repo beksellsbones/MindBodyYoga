@@ -43,4 +43,6 @@ Desktop Home Page Mockup
 <img width="835" alt="DesktopHomePageMockup" src="https://user-images.githubusercontent.com/89484770/137603175-94c7b985-c0f0-4536-a790-7ba50b896735.png">
 
 
+Revised Mobile and Tablet Mockup 
 <img width="472" alt="RevisedMobileMockupHomePage" src="https://user-images.githubusercontent.com/89484770/138338046-13541364-64b1-4078-90eb-2ec1db038716.png">
+***Desktop Mockup will look the same except the 3 images w/buttons will be horizontally aligned.***
