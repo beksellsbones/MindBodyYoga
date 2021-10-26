@@ -40,9 +40,19 @@ Tablet Home Page Mockup
 <img width="367" alt="TabletHomePageMockup" src="https://user-images.githubusercontent.com/89484770/137603174-c3dd6355-4950-4b86-9c32-ef16d0f8ee19.png">
 
 Desktop Home Page Mockup
+
 <img width="835" alt="DesktopHomePageMockup" src="https://user-images.githubusercontent.com/89484770/137603175-94c7b985-c0f0-4536-a790-7ba50b896735.png">
 
-
 Revised Mobile and Tablet Mockup 
+
 <img width="472" alt="RevisedMobileMockupHomePage" src="https://user-images.githubusercontent.com/89484770/138338046-13541364-64b1-4078-90eb-2ec1db038716.png">
+
 ***Desktop Mockup will look the same except the 3 images w/buttons will be horizontally aligned.***
+
+Final Mobile/Tablet Home Page Mockup
+
+<img width="332" alt="Mobile:Tablet Mockup" src="https://user-images.githubusercontent.com/89484770/138933342-fd86dae2-fe81-4ac1-9854-baacdbe61825.png">
+
+Final Desktop Home Page Mockup
+
+<img width="792" alt="Desktop Mockup" src="https://user-images.githubusercontent.com/89484770/138933406-0a465cb5-6543-4e3f-ae8a-c425a56bac67.png">
