@@ -1,4 +1,8 @@
 # MindBodyYoga
+
+https://beksellsbones.github.io/MindBodyYoga/
+
+
 small business website also for Ad 3
 
 
