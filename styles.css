@@ -4,7 +4,7 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 0;
-  background-color: none;
+  background-color: rgb(124,158,101);
 }
 
 img{
@@ -21,8 +21,15 @@ img{
   background-color: black;
   position: relative;
 }
+.wrapper2{
+  background-color: rgb(124,158,101);
+  margin:none;
+  padding:none;
+  position:relative;
+}
 /* END GLOBAL CSS */
 
+/* BEGIN WRAPPER STYLES */
 /* BEGIN NAVIGATION */
 @import url("https://fonts.googleapis.com/css2?family=Roboto Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
@@ -176,8 +183,7 @@ img{
   display: none;
 }
 /* END NAVIGATION */
-
-/* START MARK POSITIONING */
+/* BEGIN MARK POSITIONING */
 .mark{
   position: absolute;
   bottom:35px;
@@ -185,17 +191,102 @@ img{
   width:100px;
 }
 /* END MARK POSITIONING */
-
-/* BEGIN TAGLINE POSITINING */
+/* BEGIN TAGLINE POSITIONING */
 .tagline{
   color: rgb(247,245,225);
   position: absolute;
-  bottom:35px;
+  bottom:15px;
   right:20px;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 /* END TAGLINE POSITIONING */
+/* END WRAPPER STYLES */
 
+/* BEGIN WRAPPER2 STYLES */
+/* BEGIN LINK/BUTTON STYLES */
+.memberscontainer {
+  position: relative;
+  width: 100%;
+}
+.memberscontainer img {
+  width: 100%;
+  height: auto;
+}
+.memberscontainer .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(158,101,124);
+  color: rgb(247,245,225);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.memberscontainer .btn:hover {
+  background-color: rgba(158,101,124,.8);
+}
+.schedulecontainer {
+  position: relative;
+  width: 100%;
+}
+.schedulecontainer img {
+  width: 100%;
+  height: auto;
+}
+.schedulecontainer .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(158,101,124);
+  color: rgb(247,245,225);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.schedulecontainer .btn:hover {
+  background-color: rgba(158,101,124,.8);
+}
+.shopcontainer {
+  position: relative;
+  width: 100%;
+}
+.shopcontainer img {
+  width: 100%;
+  height: auto;
+}
+.shopcontainer .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(158,101,124);
+  color: rgb(247,245,225);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.shopcontainer .btn:hover {
+  background-color: rgba(158,101,124,.8);
+}
+/* END LINK/BUTTON STYLES */
+/* END WRAPPER2 STYLES */
+
+/* BEGIN B2TOP LINK STYLES */
+.b2toplink{
+  text-align: center;
+}
+/* END B2TOP LINK STYLES */
 /* BEGIN MEDIA QUERIES */
 @media only screen and (min-width:600px){
   .wrapper{
