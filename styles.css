@@ -12,6 +12,7 @@ img{
   display:block;
   margin:1% auto;
 }
+
 .wrapper{
   background-image: url("herohome.jpg");
   background-repeat: no-repeat;
@@ -21,6 +22,7 @@ img{
   background-color: black;
   position: relative;
 }
+
 .wrapper2{
   background-color: rgb(124,158,101);
   margin:none;
@@ -75,9 +77,11 @@ img{
 .navbar .nav-container a{
     color: rgb(158,101,124);
 }
+
 .navbar .nav-container a:visited{
     color: rgb(158,101,124);
 }
+
 .navbar .nav-container a:hover{
     font-weight: bolder;
 }
@@ -208,10 +212,12 @@ img{
   position: relative;
   width: 100%;
 }
+
 .memberscontainer img {
   width: 100%;
   height: auto;
 }
+
 .memberscontainer .btn {
   position: absolute;
   top: 50%;
@@ -226,17 +232,21 @@ img{
   cursor: pointer;
   border-radius: 5px;
 }
+
 .memberscontainer .btn:hover {
   background-color: rgba(158,101,124,.8);
 }
+
 .schedulecontainer {
   position: relative;
   width: 100%;
 }
+
 .schedulecontainer img {
   width: 100%;
   height: auto;
 }
+
 .schedulecontainer .btn {
   position: absolute;
   top: 50%;
@@ -251,17 +261,21 @@ img{
   cursor: pointer;
   border-radius: 5px;
 }
+
 .schedulecontainer .btn:hover {
   background-color: rgba(158,101,124,.8);
 }
+
 .shopcontainer {
   position: relative;
   width: 100%;
 }
+
 .shopcontainer img {
   width: 100%;
   height: auto;
 }
+
 .shopcontainer .btn {
   position: absolute;
   top: 50%;
@@ -276,6 +290,7 @@ img{
   cursor: pointer;
   border-radius: 5px;
 }
+
 .shopcontainer .btn:hover {
   background-color: rgba(158,101,124,.8);
 }
@@ -287,6 +302,53 @@ img{
   text-align: center;
 }
 /* END B2TOP LINK STYLES */
+/* BEGIN FOOTER STYLES */
+@use postcss-nested;
+
+body {
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+}
+
+.footer {
+	background:black;
+	margin-top:300px;
+	position:relative;
+	z-index:3;
+}
+
+footer {
+	background:black;
+  overflow: hidden;
+
+  .map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+
+  .map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+  p {
+    margin:0;
+  }
+
+  p a {
+    color:#fff;
+    font-size:18px;
+    text-decoration:none;
+    line-height:100px;
+    display:block;
+  }
+}
+/* END FOOTER STYLES */
 /* BEGIN MEDIA QUERIES */
 @media only screen and (min-width:600px){
   .wrapper{
@@ -294,6 +356,7 @@ img{
     height:50vh;
     background-position: center;
   }
+
   .mark{
     width:25%;
     max-width: 300px;
