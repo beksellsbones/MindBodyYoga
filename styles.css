@@ -270,17 +270,12 @@ img{
 /* END LINK/BUTTON STYLES */
 /* END WRAPPER2 STYLES */
 
-/* BEGIN B2TOP LINK STYLES */
-.b2toplink{
-  text-align: center;
-}
-/* END B2TOP LINK STYLES */
 /* BEGIN FOOTER STYLES */
 @use postcss-nested;
 
 .footer {
 	background:black;
-	margin-top:300px;
+	margin-top:0px;
 	position:relative;
 	z-index:3;
 }
@@ -290,17 +285,64 @@ footer {
   overflow: hidden;
   }
 
-  footer p{
+  /* footer p{
     text-align: center;
+  } */
+  /* BEGIN B2TOP LINK STYLES */
+  .b2toplink{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
   }
-
+.b2toplink a{
+  color: rgb(247,245,225);
+}
+.b2toplink a:visited{
+  color: rgb(247,245,225);
+}
+.b2toplink a:hover{
+  font-weight: bolder;
+}
+/* END B2T LINK STYLES */
+/* BEGIN CONTACT US STYLES */
+.ContactUs{
+  color: rgb(247,245,225);
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.ContactUs a{
+  color: rgb(247,245,225);
+}
+.ContactUs a:visited{
+  color: rgb(247,245,225);
+}
+.ContactUs a:hover{
+  color: rgb(247,245,225);
+  font-weight: bolder;
+}
+/* END CONTACT US STYLES */
+/* BEGIN ADDRESS/PHONE NUMBER STYLES */
+.addressphonenumber{
+  color: rgb(247,245,225);
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+/* END ADDRESS/PHONE NUMBER STYLES */
+/* BEGIN FLEX CONTAINER STYLES */
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 /* BEGIN MAP STYLES */
   .map-responsive{
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
-    margin:auto;
-    width:80%;
+    margin:10px auto;
+    width:75%;
     }
 
   .map-responsive iframe{
@@ -311,7 +353,7 @@ footer {
     position:absolute;
     }
 
-  p {
+  /* p {
     margin:0;
   }
 
@@ -321,10 +363,61 @@ footer {
     text-decoration:none;
     line-height:100px;
     display:block;
-  }
+  } */
 
 /* END MAP STYLES */
+/* BEGIN BUSINESS HOURS STYLES */
+.block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  width:60%;
+  padding: 10px;
+  background-color: none;
+}
+.block h2{
+  color: rgb(247,245,225);
+}
+.hours {
+  display: grid;
+  grid-template-columns: 150px 150px;
+  grid-gap: 10px;
+  color: rgb(247,245,225);
+}
+.box {
+  font-size: 1.2em;
+}
+/* END BUSINESS HOURS STYLES */
+/* BEGIN WHOLELOGO STYLES */
+.wholelogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  width:75%;
+  /* height: 250px; */
+  padding: 10px;
+}
+/* END WHOLELOGO STYLES */
+/* END FLEX CONTAINER STYLES */
+
+/* BEGIN COPYRIGHT STYLES */
+.copyright{
+  display: block;
+  text-align: center;
+  font-size: 0.9em;
+  color: rgba(247,245,225,0.5);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* END COPYRIGHT STYLES */
 /* END FOOTER STYLES */
+
+
 
 /* BEGIN MEDIA QUERIES */
 @media only screen and (min-width:600px){
@@ -341,5 +434,21 @@ footer {
   .memberscontainer .btn, .schedulecontainer .btn, .shopcontainer .btn {
     width:250px;
     font-size: 2em;
+  }
+  .flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+  }
+  .block{
+    width: 33%;
+    height: 250px;
+    font-size: 1.2em;
+  }
+  .wholelogo{
+    width: 33%;
+    height: 250px;
   }
 }/* END MEDIA QUERIES */
