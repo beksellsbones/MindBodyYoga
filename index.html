@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+<!-- BEGIN HEAD -->
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="mind & body yoga is a yoga studio based out of San Francisco, CA, offering multi-tiered membership options, rooftop meditation, and spa services.">
+    <meta name="description" content="mind & body yoga is a yoga studio based out of San Francisco, CA, offering multi-tiered membership options, virtual classes, rooftop meditation, and spa services.">
     <meta name="keywords" content="yoga, studio, membership, classes, spa, meditation, San Francisco, fitness">
     <meta http-equiv="author" content="Bek Hughes">
     <title>creating a mind & body connection</title>
@@ -11,6 +12,8 @@
 <!-- POSSIBLE GOOGLE FONT -->
     <link rel="stylesheet" href="styles.css" type="text/css">
   </head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
   <body>
 <!-- BEGIN WRAPPER -->
     <div class="wrapper" id="top">
@@ -37,30 +40,36 @@
         </div>
       </nav>
 <!-- END NAVIGATION -->
+<!-- BEGIN MARK OVER HERO -->
     <img class="mark" src="mark.png" alt="Mind & Body Yoga" />
+<!-- END MARK OVER HERO -->
+<!-- BEGIN TAGLINE -->
     <p class="tagline"> creating a mind & body connection </p>
+<!-- END TAGLINE -->
     </div>
 <!-- END WRAPPER -->
     <!-- <img class="herohome" src="herohome.jpg" alt="Person in a Yoga Pose" title="Person in a Yoga Pose" /> -->
 <!-- BEGIN WRAPPER2
 https://www.w3schools.com/howto/howto_css_button_on_image.asp -->
   <div class="wrapper2">
-    <div class="memberscontainer">
-      <a href="#"><img class="membershome" src="membershome.jpg" alt="Members Page" /></a>
-      <button class="btn">Members</button>
+<!-- BEGIN FLEX-BOX -->
+    <div class="flex-box">
+      <div class="memberscontainer">
+        <a href="#"><img class="membershome" src="membershome.jpg" alt="Members Page" /></a>
+        <button class="btn">Members</button>
+      </div>
+      <div class="schedulecontainer">
+        <a href="#"><img class="schedulehome" src="schedulehome.jpg" alt="Scheduling Page" /></a>
+        <button class="btn">Schedule</button>
+      </div>
+      <div class="shopcontainer">
+        <a href="#"><img class="shophome" src="shophome.jpg" alt="Shop Page" /></a>
+        <button class="btn">Shop</button>
+      </div>
     </div>
-    <div class="schedulecontainer">
-      <a href="#"><img class="schedulehome" src="schedulehome.jpg" alt="Scheduling Page" /></a>
-      <button class="btn">Schedule</button>
-    </div>
-    <div class="shopcontainer">
-      <a href="#"><img class="shophome" src="shophome.jpg" alt="Shop Page" /></a>
-      <button class="btn">Shop</button>
-    </div>
+<!-- END FLEX-BOX -->
   </div>
-
 <!-- END WRAPPER2 -->
-
 <!-- BEGIN FOOTER -->
     <div class="footer">
       <footer>
@@ -87,17 +96,19 @@ https://www.w3schools.com/howto/howto_css_button_on_image.asp -->
 <!-- END MAP -->
 <!-- BEGIN BUSINESS HOURS -->
           <div class="block">
-            <h2><b>Business Hours</b></h2>
-          <div class="hours">
-            <div>Monday-Friday</div>
-            <div >6am-8pm</div>
-            <div>Saturday</div>
-            <div>7am-8pm</div>
-            <div>Sunday</div>
-            <div>8am-8pm</div>
-            <div>Online</div>
-            <div>24/7</div>
-          </div>
+            <section>
+              <h3><b>Business Hours</b></h3>
+              <div class="hours">
+                <div>Monday-Friday</div>
+                <div >6am-8pm</div>
+                <div>Saturday</div>
+                <div>7am-8pm</div>
+                <div>Sunday</div>
+                <div>8am-8pm</div>
+                <div>Online</div>
+                <div>24/7</div>
+              </div>
+            </section>
           </div>
 <!-- END BUSINESS HOURS -->
 <!-- BEGIN FULL LOGO DISPLAY -->
@@ -116,4 +127,5 @@ https://www.w3schools.com/howto/howto_css_button_on_image.asp -->
     </div>
 <!-- END FOOTER -->
   </body>
+<!-- END BODY -->
 </html>
