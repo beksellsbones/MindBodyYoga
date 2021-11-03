@@ -6,7 +6,7 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 0;
-  background-color: rgb(124,158,101);
+  /* background-color: rgb(124,158,101); */
 }
 
 img{
@@ -213,6 +213,7 @@ img{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  background-color: rgba(124,158,101,0.8);
 }
 /* END FLEX-BOX STYLES */
 /* BEGIN LINK/BUTTON STYLES */
@@ -244,6 +245,7 @@ img{
 
 .memberscontainer, .schedulecontainer, .shopcontainer .btn:hover {
   background-color: rgba(158,101,124,.8);
+  padding: 0;
 }
 /* END LINK/BUTTON STYLES */
 /* END WRAPPER2 STYLES */
@@ -502,7 +504,30 @@ footer {
   }
 }/* END DESKTOP QUERY */
 /* BEGIN OVERSIZED QUERY */
-/* @media only screen and (min-width:1280px){
+@media only screen and (min-width:1280px){
+  .wrapper{
+    background-image: url("herohome.jpg");
+    background-repeat: no-repeat;
+    height:35vh;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    position: relative;
+  }
+  .mark{
+    position: absolute;
+    bottom:45px;
+    left:20px;
+    width:100px;
+    max-width: 25%;
+  }
+  .tagline{
+    color: rgb(247,245,225);
+    position: absolute;
+    bottom:15px;
+    right:20px;
+    font-size: 2em;
+  }
   .flex-box{
     display: flex;
     flex-direction: row;
@@ -514,5 +539,50 @@ footer {
     justify-content: space-around;
     align-content: space-around;
   }
-}/* END OVERSIZED QUERY */
+  .memberscontainer .btn, .schedulecontainer .btn, .shopcontainer .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(158,101,124);
+    color: rgb(247,245,225);
+    font-size: 1em;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 30%;
+  }
+  .map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    margin:10px auto;
+    width:30%;
+  }
+  .block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    width:30%;
+    padding: 10px;
+    background-color: none;
+    font-size: 1em;
+  }
+  .wholelogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    width:30%;
+    /* height: 250px; */
+    padding: 10px;
+    font-size: 1em;
+  }
+}/* END OVERSIZED QUERY
 /* END MEDIA QUERIES */
