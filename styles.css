@@ -217,17 +217,17 @@ img{
 }
 /* END FLEX-BOX STYLES */
 /* BEGIN LINK/BUTTON STYLES */
-.memberscontainer, .schedulecontainer, .shopcontainer {
+.section {
   position: relative;
   width: 100%;
 }
 
-.memberscontainer, .schedulecontainer, .shopcontainer img {
+.section img {
   width: 100%;
   height: auto;
 }
 
-.memberscontainer .btn, .schedulecontainer .btn, .shopcontainer .btn {
+.section .btn {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -243,9 +243,9 @@ img{
   width: 120px;
 }
 
-.memberscontainer, .schedulecontainer, .shopcontainer .btn:hover {
+.section .btn:hover {
   background-color: rgba(158,101,124,.8);
-  padding: 0;
+  /* padding: 0; */
 }
 /* END LINK/BUTTON STYLES */
 /* END WRAPPER2 STYLES */
@@ -444,7 +444,7 @@ footer {
     font-size: 2em;
   }
 
-  .memberscontainer .btn, .schedulecontainer .btn, .shopcontainer .btn {
+  .section .btn {
     width:250px;
     font-size: 2em;
   }
@@ -544,14 +544,17 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 30%;
-    max-width: 800px;
+    width: 100%;
+    max-width: none;
     margin-left:auto;
     margin-right: auto;
     justify-content: space-around;
     align-content: space-around;
   }
-  .memberscontainer .btn, .schedulecontainer .btn, .shopcontainer .btn {
+  .flex-box div{
+    width: 33%;
+  }
+  .section .btn {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -572,6 +575,7 @@ footer {
     position:relative;
     margin:10px auto;
     width:30%;
+    /* height:20vh; */
   }
   .block {
     display: block;
