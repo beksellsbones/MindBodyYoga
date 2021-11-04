@@ -408,6 +408,18 @@ footer {
 /* END COPYRIGHT STYLES */
 /* END FOOTER STYLES */
 
+/* BEGIN MEMBERS PAGE STYLES */
+.wrapper-members{
+  background-image: url("Hero2-Members.jpg");
+  background-repeat: no-repeat;
+  height:50vh;
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+  position: relative;
+}
+/* END MEMBERS PAGE STYLES */
+
 
 
 /* BEGIN MEDIA QUERIES */
