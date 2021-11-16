@@ -15,6 +15,10 @@ img{
   margin:1% auto;
 }
 
+.tagline{
+  z-index: -1;
+}
+
 .wrapper{
   background-image: url("herohome.jpg");
   background-repeat: no-repeat;
@@ -30,6 +34,7 @@ img{
   margin:none;
   padding:none;
   position:relative;
+  z-index: -1;
 }
 /* END GLOBAL CSS */
 
@@ -412,18 +417,29 @@ footer {
 .wrapper-members{
   background-image: url("Hero2-Members.jpg");
   background-repeat: no-repeat;
-  height:50vh;
+  height:80vh;
   background-position: center;
   background-size: cover;
   background-color: black;
   position: relative;
 }
 /* END MEMBERS PAGE STYLES */
+/* BEGIN SCHEDULE PAGE STYLES */
+.wrapper-schedule{
+  background-image: url("Hero3-Schedule.jpg");
+  background-repeat: no-repeat;
+  height:80vh;
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+  position: relative;
+}
+/* END SCHEDULE PAGE STYLES */
 /* BEGIN SHOP PAGE STYLES */
 .wrapper-shop{
   background-image: url("Hero4-Shop.jpg");
   background-repeat: no-repeat;
-  height:50vh;
+  height:80vh;
   background-position: center;
   background-size: cover;
   background-color: black;
@@ -434,7 +450,7 @@ footer {
 .wrapper-contact{
   background-image: url("Hero5-Contact.jpg");
   background-repeat: no-repeat;
-  height:50vh;
+  height:80vh;
   background-position: center;
   background-size: cover;
   background-color: black;
@@ -499,20 +515,24 @@ footer {
       padding:10px 20px;
       font-size: 1.1em;
     }
-  /*        END MOBILE FORM STYLES */
-
-    @media only screen and (min-width: 1000px) {
-
-    }
+/*END MOBILE FORM STYLES */
 /* END CONTACT STYLES */
 
 
 
 /* BEGIN MEDIA QUERIES */
+/* BEGIN LANDSCAPE PHONE QUERY */
+@media only screen and (min width:321px) and (orientation:landscape) {
+  .logo a{
+    padding:0;
+  }
+}
+/* END LANDSCAPE PHONE QUERY */
 /* BEGIN MOBILE QUERY */
 @media only screen and (min-width:475px){
   .wrapper{
     width:100%;
+    max-width: 80px;
     height:50vh;
     background-position: center;
   }
@@ -579,6 +599,10 @@ footer {
     padding: 5px;
     /* font-size: 1em; */
   }
+
+  .day {
+        height: 14.2857vw;
+    }
 }/* END MOBILE QUERY */
 /* BEGIN TABLET/LAPTOP QUERY */
 @media only screen and (min-width:650px){
