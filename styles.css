@@ -94,6 +94,7 @@ img{
   display: block;
   position: relative;
   height: 60px;
+  background-color: black;
 }
 
 .nav-container .checkbox {
