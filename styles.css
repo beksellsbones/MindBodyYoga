@@ -15,9 +15,9 @@ img{
   margin:1% auto;
 }
 
-.tagline{
+/* .tagline{
   z-index: -1;
-}
+} */
 
 .wrapper{
   background-image: url("herohome.jpg");
@@ -34,7 +34,7 @@ img{
   margin:none;
   padding:none;
   position:relative;
-  z-index: -1;
+  /* z-index: -1; */
 }
 /* END GLOBAL CSS */
 
@@ -518,7 +518,21 @@ footer {
 /*END MOBILE FORM STYLES */
 /* END CONTACT STYLES */
 
-
+/* BEGIN CALENDAR STYLES */
+/* @media (max-width:600px) { */
+    .display-4 {
+        font-size: 1.5rem;
+    }
+    .day h5 {
+        background-color: #f8f9fa;
+        padding: 3px 5px 5px;
+        margin: -8px -8px 8px -8px;
+    }
+    .date {
+        padding-left: 4px;
+    }
+/* } */
+/* END CALENDAR STYLES */
 
 /* BEGIN MEDIA QUERIES */
 /* BEGIN LANDSCAPE PHONE QUERY */
@@ -532,7 +546,7 @@ footer {
 @media only screen and (min-width:475px){
   .wrapper{
     width:100%;
-    max-width: 80px;
+    /* max-width: 80px; */
     height:50vh;
     background-position: center;
   }
@@ -547,7 +561,7 @@ footer {
   }
 
   .tagline{
-    font-size: 2em;
+    font-size: 1.3em;
   }
 
   .section .btn {
@@ -600,15 +614,17 @@ footer {
     /* font-size: 1em; */
   }
 
-  .day {
-        height: 14.2857vw;
-    }
 }/* END MOBILE QUERY */
+
 /* BEGIN TABLET/LAPTOP QUERY */
 @media only screen and (min-width:650px){
   .map-responsive{
     width:100%;
   }
+
+  .day {
+    height: 14.2857vw;
+    }
 }/* END TABLET/LAPTOP QUERY
 /* BEGIN DESKTOP QUERY */
 /* @media only screen and (min-width:992px){
